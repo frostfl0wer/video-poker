@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://dx3qvwhm1lrng"]
+
+[ext_resource type="Script" uid="uid://dg41117gawbg8" path="res://scripts/main.gd" id="1_o5qli"]
+[ext_resource type="PackedScene" uid="uid://bbfc81i5u1hce" path="res://scenes/deck.tscn" id="2_0wfyh"]
+[ext_resource type="PackedScene" uid="uid://3r0vq5000t7u" path="res://scenes/hand.tscn" id="3_sugp2"]
+
+[node name="main" type="Node2D" unique_id=1004774709]
+script = ExtResource("1_o5qli")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1246991674]
+zoom = Vector2(1.8, 1.8)
+
+[node name="deck" parent="." unique_id=748730733 instance=ExtResource("2_0wfyh")]
+position = Vector2(-200, -100)
+
+[node name="hand" parent="." unique_id=1202475227 instance=ExtResource("3_sugp2")]

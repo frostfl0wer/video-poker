@@ -1,0 +1,25 @@
+[gd_scene format=3 uid="uid://c2pw0c6pg77em"]
+
+[ext_resource type="Theme" uid="uid://dvkx6s6uylwrd" path="res://assets/default_theme.tres" id="1_hfhxp"]
+
+[node name="Control" type="Control" unique_id=1857116422]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="." unique_id=2080725945]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -61.0
+offset_top = -23.0
+grow_horizontal = 0
+grow_vertical = 0
+theme = ExtResource("1_hfhxp")
+text = "Confirm"

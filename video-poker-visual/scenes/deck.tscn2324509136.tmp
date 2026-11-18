@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://bbfc81i5u1hce"]
+
+[ext_resource type="Script" uid="uid://cn3mc45wtxqsw" path="res://scripts/DeckBase.gd" id="1_6rnap"]
+[ext_resource type="Texture2D" uid="uid://dp54igenuwlj5" path="res://assets/card_backs.png" id="1_sdhao"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n5i6o"]
+atlas = ExtResource("1_sdhao")
+region = Rect2(1, 1, 69, 93)
+
+[node name="deck" type="Node2D" unique_id=748730733]
+script = ExtResource("1_6rnap")
+
+[node name="bg_Sprite2D" type="Sprite2D" parent="." unique_id=1203802994]
+texture = SubResource("AtlasTexture_n5i6o")

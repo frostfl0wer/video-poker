@@ -1,0 +1,6 @@
+[gd_resource type="Theme" format=3 uid="uid://dvkx6s6uylwrd"]
+
+[ext_resource type="FontFile" uid="uid://dmsghwma0nlnr" path="res://assets/balatro.otf" id="1_qew4h"]
+
+[resource]
+default_font = ExtResource("1_qew4h")
